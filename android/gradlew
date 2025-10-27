@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "Pretend Gradle wrapper: building Android ($1) ..."
+mkdir -p build/outputs/apk
+echo "APK-$1.apk" > build/outputs/apk/app-$1.apk
+chmod +x android/gradlew
+

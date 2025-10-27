@@ -2,9 +2,9 @@
   "name": "dbank-web",
   "version": "0.1.0",
   "scripts": {
-    "build:debug": "echo Building WEB (debug) && mkdir -p dist && echo '<h1>Debug Web</h1>' > dist/index.html",
-    "build:test": "echo Building WEB (test) && mkdir -p dist && echo '<h1>Test Web</h1>' > dist/index.html",
-    "build:release": "echo Building WEB (release) && mkdir -p dist && echo '<h1>Release Web</h1>' > dist/index.html",
-    "build:release-protected": "echo Building WEB (release-protected) && mkdir -p dist && echo '<h1>Release-Protected Web</h1>' > dist/index.html"
+    "build:debug": "echo \"Building WEB (debug)\" && mkdir -p dist && printf '<h1>Debug Web</h1>' > dist/index.html",
+    "build:test": "echo \"Building WEB (test)\" && mkdir -p dist && printf '<h1>Test Web</h1>' > dist/index.html",
+    "build:release": "echo \"Building WEB (release)\" && mkdir -p dist && printf '<h1>Release Web</h1>' > dist/index.html",
+    "build:release-protected": "echo \"Building WEB (release-protected)\" && mkdir -p dist && printf '<h1>Release-Protected Web</h1>' > dist/index.html"
   }
 }
